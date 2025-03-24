@@ -26,3 +26,9 @@ const sayGoodbye = function(name) {
 }
 
 sayGoodbye("Samuel");
+
+// Arrow functions
+export default (userName, message) => {
+    console.log('Goodnight');
+    return userName + message;
+}
