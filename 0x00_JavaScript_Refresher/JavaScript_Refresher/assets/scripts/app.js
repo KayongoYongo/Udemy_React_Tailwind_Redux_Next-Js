@@ -32,3 +32,8 @@ export default (userName, message) => {
     console.log('Goodnight');
     return userName + message;
 }
+
+// Arrow functions
+const add = (a, b) => a + b;
+
+console.log(add(5,6));
