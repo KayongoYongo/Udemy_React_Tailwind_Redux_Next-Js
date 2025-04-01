@@ -108,4 +108,32 @@ const editedHobbies = hobbies.map((item) => item + "!");
 // You can also convert the items into JavaScript objects
 const objectHobbies = hobbies.map((item) => ({hobby: item}));
 
-console.log(objectHobbies);
+// console.log(objectHobbies);
+
+// Destructuring
+// Arrays
+const userNameData = ["John", "Doe"];
+
+// This method is too long, instead, a shorter method can be implemented
+// const firstName = userNameData[0];
+// const secondName = userNameData[1];
+
+const [firstName, secondName] = ['John', 'Doe'];
+
+// console.log(firstName);
+// console.log(secondName);
+
+// Objects destructuring
+// const user = {
+//   name: "Max",
+//   age: 35
+// }
+
+// Still works for objects
+const {name, age} = {
+  name: "Max",
+  age: 35
+}
+
+console.log(name);
+console.log(age);
