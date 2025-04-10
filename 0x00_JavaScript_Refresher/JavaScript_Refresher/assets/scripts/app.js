@@ -135,5 +135,14 @@ const {name, age} = {
   age: 35
 }
 
-console.log(name);
-console.log(age);
+// console.log(name);
+// console.log(age);
+
+// Spread operator
+const funHobbies = ["Eating", "Driving", "Sports"];
+
+const newFunHobbies = ["Running", "Dunking"];
+
+const mergedHobbies = [...funHobbies, ...newFunHobbies];
+
+console.log(mergedHobbies);
